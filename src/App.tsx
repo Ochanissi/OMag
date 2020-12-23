@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   // ComponentDidMount
@@ -25,7 +25,7 @@ function App() {
   //     return () => console.log('I am unmounting');
   // }, [])
 
-  //   ComponentWillReceiveProps
+  // ComponentWillReceiveProps
   // //Class
   // componentWillReceiveProps(nextProps) {
   //     if (nextProps.count !== this.props.count) {
