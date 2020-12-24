@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import Navbar from './components/navbar/navbar.component';
+import HomePage from './pages/home-page/home-page.component';
 
-function App() {
+const App = () => {
   // ComponentDidMount
   // //Class
   // componentDidMount() {
@@ -40,22 +41,10 @@ function App() {
 
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload aaaaaaaaaaaaa.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <HomePage />
     </div>
   );
-}
+};
 
 export default App;
